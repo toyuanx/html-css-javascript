@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 10px auto;
+
+}
+[class*="tri"]{
+    margin: 20px 15px;
+    float: left;
+    background: snow;
+    /*border: 1px solid #000000;*/
+}
+.triangleUp{
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #2DCB70;
+}
+.triangleDown{
+    width: 0px;
+    height: 0px;
+    border-right: 40px double transparent;
+    border-left: 40px double transparent;
+    border-top: 80px dashed #2DCB70;
+}
+.triangleLeft{
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom:40px solid transparent;
+    border-right: 80px solid #2DCB70;
+}
+.triangleRight{
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-bottom:40px solid transparent;
+    border-left: 80px solid #2DCB70;
+}
+.triangleTopLeft{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    /*border-right: 40px solid transparent;*/
+    border-top: 80px solid #2DCB70;
+}
+.triangleTopLeft{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    /*border-right: 40px solid transparent;*/
+    border-top: 80px solid #2DCB70;
+}
+.triangleTopRight{
+    width: 0;
+    height: 0;
+    /*border-left: 80px solid transparent;*/
+    border-right: 80px solid transparent;
+    border-top: 80px solid #2DCB70;
+}
+.triangleBottomRight{
+    width: 0;
+    height: 0;
+    /*border-left: 80px solid transparent;*/
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid #2DCB70;
+}
+.triangleBottomLeft{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    /*border-right: 80px solid transparent;*/
+    border-bottom: 80px solid #2DCB70;
+}
+.triCircle1{
+    /*width: 40px;*/
+    /*height: 40px;*/
+    border: 40px solid #2DCB70;
+    border-radius: 40px;
+}
+.triCircle2{
+    width: 70px;
+    height: 70px;
+    border: 5px solid #2DCB70;
+    border-radius: 60px;
+}
+.triOval{
+    margin: 35px 10px;
+    width: 80px;
+    height: 40px;
+    background: #2DCB70;
+    border-radius: 40px / 20px;
+}
+.triTrapezoid{
+    width: 20px;
+    height: 0px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid #2DCB70;
+}
+.triParallelogram{
+    width: 80px;
+    height: 80px;
+    transform: skew(-15deg);
+    background: #2DCB70;
+}
